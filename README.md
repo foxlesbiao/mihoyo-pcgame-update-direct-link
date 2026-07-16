@@ -30,7 +30,11 @@ pip install requests
 ### 2. 运行脚本
 
 ```bash
-python get_links.py or get_links_aria2.py
+# 不带下载功能
+python get_links.py
+
+# 带 aria2 RPC 下载功能
+python get_links_aria2.py
 ```
 
 ### 3. 选择游戏
